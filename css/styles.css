@@ -1,0 +1,1003 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF; 
+}
+
+body * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.125rem solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 0.4375rem;
+    font-family: 'Open Sans';
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0; 
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase; 
+}
+
+.button-submit {
+    background: none;
+    border: 1px solid #FFFFFF;
+    font-style: italic;
+    box-shadow: none;
+}
+.logo a {
+    color: #E3B873;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.tel a {
+    color: #E3B873;
+    text-decoration: none;
+}
+.header {
+    background-color: #131313;    
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+    font-size: 11px;
+    line-height: 15px;
+}
+.header-navigation {
+    list-style: none;
+    display: flex;
+
+}
+
+.header-navigation__item {
+    margin-right: 47px;
+}
+
+.header-navigation__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.image43 {
+    background-image: url('../img/image\ 4.3.jpg');
+    background-size: cover;
+    height: 707px;
+    
+    position: relative;
+}
+
+.image43-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+.image43-container {
+    position: relative;
+    z-index: 1;
+    padding-top: 194px;
+    padding-left: 134px;
+    padding-right: 627.89px;
+    padding-bottom: 208px;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;  
+}
+.textp {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    
+}
+
+.group1 {
+    background-size: 100%;
+    background-color: #131313;
+    height: 730px;
+    display: flex;
+    padding-top: 80px;
+}
+
+.group1-completed-projects-container {
+    flex-direction: column;
+    display: flex;
+    width: 40%;
+    padding-left: 60px;
+    margin-top: 60px;
+}
+
+.CP-head-content {
+    display: flex;
+}
+
+.CP-header { /* Completed projects */
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+
+    color: #E3B873;
+}
+
+.CP-article {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    width: 85%;
+    padding: 20px 0 30px;
+    color: #FFFFFF;
+}
+
+.CP-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.CP-line {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.CP-text {
+    width: 45%;
+}
+
+.CP-text-header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+
+    color: #E3B873;
+}
+
+.CP-text-inf {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    width: 60%;
+    color: #FFFFFF;
+}
+
+.arrows {
+    padding-top: 40px;
+}
+
+.CP-photo {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 60%;
+}
+
+.CP-towns {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.CP-town1 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    list-style: none;
+    text-decoration: none;
+}
+
+h2 {
+    color: #E3B873;
+}
+
+h4 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+
+    color: #E3B873;
+}
+
+
+
+.container_online_control_content {
+    background-color: #131313;    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /*padding-bottom: 16rem;*/
+    height: 345px;
+}
+
+.online-control-title, .types-of-repair-title {
+    color: #FFFFFF;
+    font-family: 'Yeseva One';
+    margin-top: 60px;
+}
+
+.online-control-logo, .types-of-repair-logo {
+    color: #E3B873;
+    font-size: 1.875rem;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.online-control-white {
+   background-color: #FFFFFF; 
+   display: flex;
+   justify-content: center;
+   margin-top: 200px;
+}
+
+.online-control-video {
+    position: relative;
+    bottom: -70px;
+}
+
+.OC-hr {
+    border-color: #E3B873;
+    position: relative;
+    border-radius: 30px;
+}
+
+.online-control-article {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    margin-left: 377px;
+    margin-right: 378px;
+    
+    color: #363636;
+
+}
+
+.online-control-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.online-control-submit {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    /* identical to box height */
+    padding: auto 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    color: #FFFFFF;
+
+}
+
+.form-online {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.check-form1 {
+    align-self: center;
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.checkmark {
+    background-color: #E3B873;
+ 
+}
+
+.checkbox-text {
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    /* or 23px */
+    padding-left: 20px;
+
+    color: #181818;
+
+}
+
+.types_of-repair {
+    height: 850px;
+}
+
+.container_types_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.types-of-repair-title {
+    color: black;
+    text-shadow: none;
+}
+
+.types-of-repairs-sorts {
+    justify-content: space-around;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.TOR-pic {
+    width: 392px;
+    height: 421px;
+}
+
+.TOR-content {
+    width: 84.18%;
+    padding: 1.5625rem 1.8125rem 3.875rem 2.125rem;
+    margin: 0 auto;
+    position: relative;
+    bottom: 7.9375rem;
+    background-color: #ffffff;
+    box-shadow: 0.625rem 0.625rem 1.25rem rgba(0, 0, 0, 0.03);
+}
+
+.TOR-title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #363636;
+
+}
+
+.TOR-list {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    list-style: disc;
+    color: #959595;
+}
+
+.TOR-button-wrapper {
+    padding-left: 25px;
+    position: relative;
+    bottom: 175px;
+}
+
+.TOR-button {
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: Yeseva One;
+    border: none;
+    border-radius: 2px;
+    padding: 13px 33px;
+}
+
+.column1 {
+    background-image: url('../img/hall1.jpg');
+}
+
+.column2 {
+    background-image: url('../img/hall2.jpg');
+}
+
+.column3 {
+    background-image: url('../img/hall3.jpg');
+}
+
+.line-request {
+    display: flex;
+    overflow: hidden;
+}
+
+.line-main {
+    width: 60%;
+}
+
+.line {
+    right: 80px;
+    position: relative;
+    width: 530px;
+    height: 500px;
+}
+
+.laps {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    background-image: url('../img/housefront.jpg');
+}
+
+.lap {
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 10px;
+    height: 60px;
+    margin: 0 auto
+}
+
+.lap-in {
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 55px;
+    height: 55px;
+}
+
+.lap1, .lap2, .lap3, .lap4 {
+    position: relative;
+}
+
+.lap-NUM {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Yeseva One';
+}
+
+.lap.lap1::after {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: block;
+    position: relative;
+    left: 60px;
+    WIDTH: 410px;
+    bottom: 45px;
+    color: #363636;
+    content: "Our specialist will arrive for measurements per day contact, or appoint a date convenient for you";
+}
+
+.lap.lap2::after {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: block;
+    position: relative;
+    left: 60px;
+    WIDTH: 410px;
+    bottom: 40px;
+    color: #363636;
+    content: "Free metering";
+}
+
+.lap.lap3::after {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: block;
+    position: relative;
+    left: 60px;
+    WIDTH: 410px;
+    bottom: 40px;
+    color: #363636;
+    content: "Free consultation";
+}
+
+.lap.lap4::after {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: block;
+    position: relative;
+    left: 60px;
+    WIDTH: 410px;
+    bottom: 40px;
+    color: #363636;
+    content: "Get a cost estimate and the timing of your future repairs";
+}
+
+.request-form {
+    display: flex;
+    justify-content: center;
+    width: 37%;
+    padding-top: 70.75px;
+    padding-left: 30.625px;
+    flex-direction: column;
+}
+
+.request-form-top {
+    display: flex;
+    background-color: #131313;
+    padding: 35.75px 30px;
+    box-shadow: 0px 1.875rem 1.875rem rgb(0 0 0 / 5%);
+    margin-top: -55px;
+}
+
+.form-control {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form-control .checkbox__text {
+    color: #FFFFFF;
+}
+
+.form-titl {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+.form-p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form-section-control-item {
+    margin-top: 30px;
+}
+
+.check-form {
+    margin-top: 30px;
+    position: relative;
+}
+
+.form-button-wrapper input {
+    display: flex;
+    justify-content: flex-end;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Yeseva One';
+    border: none;
+    border-radius: 2px;
+    padding: 13px 33px;
+    Width: 213px;
+    Height: 51px;
+}
+
+.pig {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.pig-content {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: auto;
+    color: #E3B873;
+
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+.fantasies {
+    margin-top: 100px;
+}
+
+.container-fantasies {
+    background-image: url('../img/background-fantasies.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 864px;
+    background-size: cover;
+    position: relative;
+}
+
+.container-fantasies::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    
+}
+
+.fant-list {
+    padding: 60px 90px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.fant-list-cont {
+    width: 285px;
+}
+
+.fant-list-header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    
+    color: #E3B873;
+
+}
+
+.fant-list-sched a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /* height: 450px; */
+    flex-direction: column;
+    margin-top: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.fant-pics {
+    display: flex;
+    margin-top: -101px;
+    width: 60%;
+}
+
+.fant-pics-column {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-right: 45px;
+}
+
+.fant-pics-column1 {
+    height: fit-content;
+    margin-top: -60px;
+}
+
+.fant-pic1, .fant-pic3 {
+    margin-bottom: 35px;
+}
+
+.our_clients {
+    height: 750px;
+    margin-top: 39px;
+}
+
+.our-clients-header {
+    padding-bottom: 39px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-clients-header-name {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #181818;
+}
+
+.our-clients-logo {
+    color: #E3B873;
+    font-size: 33px;
+    padding-top: 10px;
+}
+
+.our-clients-header-article {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #363636;
+}
+
+.our-clients-comment-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+
+.our-clients-comments {
+    padding: 20px 32px 8px 30px;
+    width: 32%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 48px rgb(0 0 0 / 4%);
+}
+
+.OC-folk {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+
+.client-photo {
+    border-radius: 50%;
+}
+
+.OC-full-name {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0px 15px;
+    color: #181818;
+
+}
+
+.OC-comm-text {
+    margin-top: 15px;
+}
+
+.OC-comm-text-article {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    /* or 23px */
+    color: #959595;
+}
+
+.OC-comm-inf {
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    line-height: 16px;
+    position: relative;
+    top: 32px;
+    right: 30px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Yeseva One;
+    display: flex;
+}
+
+.border {
+    border-right: 1px #ffffff solid;
+}
+
+.OC-comm-area {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.OC-comm-area-text {
+    padding-left: 10px;
+}
+
+.form {
+    position: relative;
+    width: 70%;
+    margin: -80px auto;
+    z-index: 1;
+}
+
+.form-main {
+    display: flex;
+    background: black;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.container-form {
+    align-items: center;
+}
+
+.form-title {
+    text-transform: uppercase;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.form-inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    background-color: inherit;
+    border: none;
+}
+
+.form-name-phone {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.form-place {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.form-check {
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+.button-submit-2 {
+    /*display: flex;*/
+    position: relative;
+    bottom: 0.125rem;
+    width: 9.5rem;
+    height: 3.125rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.map {
+    display: flex;
+    background: url(../img/image\ 7.2.jpg);
+    background-size: cover;
+    background-size: auto 864px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    height: 750px;
+}
+
+.map::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,.7);
+}
+
+.map-contact {
+    text-transform: uppercase;
+    font-family: Yeseva One;
+    text-align: center;
+    text-shadow: none;
+    z-index: 1
+}
+
+.map_social_icons {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    z-index: 1
+}
+
+iframe {
+    z-index: 1
+}
+
+i {
+    border-radius: 50%;
+    background-color: #E3B873;
+    padding: 15px;
+}
+
+.mailto {
+    margin-right: 10px;
+}
+footer {
+    background-color: black;
+}
